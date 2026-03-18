@@ -33,6 +33,7 @@ while True:
 
         students.append(student)
         print("Student added successfully!")
+        
 
     elif choice == "2":
         if len(students) == 0:
@@ -45,6 +46,7 @@ while True:
                       "| Age:", s["age"],
                       "| Grade:", s["grade"],
                       "| Subjects:", ", ".join(s["subjects"]))
+                
 
     elif choice == "3":
         sid = int(input("Enter student ID to update: "))
