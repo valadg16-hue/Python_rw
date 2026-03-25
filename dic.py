@@ -24,7 +24,7 @@ student_ids = set()
 student_data = {}
 
 # number of students
-n = int(input("Enter number of students: "))
+n = int(input("\nEnter number of students: "))
 
 for i in range(n):
     
