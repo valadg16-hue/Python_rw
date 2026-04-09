@@ -90,7 +90,8 @@ def main_file():
             clearFile(name)
             main_file()
         case 6:
-            return
+            import project7_main as md
+            md.main()
         case 7:
             exit()
         case _:
